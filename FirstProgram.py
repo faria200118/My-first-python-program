@@ -67,4 +67,11 @@ val1 = False
 val2 = False
 print("AND operator:", val1 and val2)
 
-print("OR operator:",val1 or val2)
+print("OR operator:", (d == e) or (d > e))
+
+#type conversion
+f = 2
+g = 4.25
+
+sum = f + g # 2.0 + 4.25 => 6.25
+print(sum)
